@@ -47,7 +47,7 @@ export INFO=${INFO-true}
 export STRICT=${STRICT-true}
 export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
-export TUF_MIRROR=${TUF_MIRROR-http://tuf.tssc-tas.svc}
+export TUF_MIRROR=${TUF_MIRROR-https://tuf-tssc-tas.apps.cluster-5hgrs.5hgrs.sandbox1105.opentlc.com}
 
 # Allow PR to succeed even if TAS vars not configured
 export FAIL_IF_TRUSTIFICATION_NOT_CONFIGURED=false
